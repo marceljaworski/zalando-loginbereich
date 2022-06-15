@@ -8,24 +8,124 @@ html, body {
   padding: 0;
   margin: 0;
   height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.titel {
+  padding: 1rem;
+}
+.titel img {
+  width: 150px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #6328E0;
+  font-weight: 900;
 }
 
 header {
+  top: 0;
   width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
- 
+  padding: 1rem 0 1rem 0;
 }
 header div {
+  height: 3rem;
   display: flex;
   flex-direction: row;
+  align-items: center;
+  padding: 0 1rem;
+  border: solid 1px gray;
+}
+header div i {
+  color: #000;
+}
+header .login {
+  width: 100%;
+  display: flex;
   justify-content: space-between;
+}
+header .login a {
+  text-decoration: none;
+}
+
+footer a {
+  color: gray;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-inline: 1rem;
+}
+
+.form {
+  margin-bottom: 1rem;
+}
+.form h1 {
+  margin-bottom: 1rem;
+}
+.form label {
+  border-top: solid 1px gray;
+  border-right: solid 1px gray;
+  border-left: solid 1px gray;
+  padding: 0.5rem;
+  width: max-content;
+}
+.form button {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+  border: none;
+  font-weight: 900;
+}
+.form div {
   position: relative;
 }
-header button {
-  border: solid 1px rgb(252, 26, 26);
+.form div input {
+  width: 100%;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+}
+.form div input input:hover {
+  border: #000;
+}
+.form div i {
+  position: absolute;
+  font-size: 1.5rem;
+  color: gray;
+  top: 15px;
+  left: 5px;
+}
+
+.register {
+  margin-top: 1rem;
+  padding-inline: 1rem;
+}
+.register p {
+  margin-bottom: 1rem;
+}
+.register button {
+  width: 100%;
+  background-color: #fff;
+  color: #000;
+  margin-bottom: 1rem;
+  padding: 1rem 2rem;
+  border: solid 1px #000;
+  font-weight: 900;
+}
+.register button:hover {
+  background-color: gray;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */

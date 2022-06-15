@@ -10,13 +10,19 @@ html,body {
     font-family: Arial, Helvetica, sans-serif;
 }
 .titel {
-    margin-left: 1rem;
+    padding: 1rem;
+    
     img {
-        width: 100px;
+        width: 150px;
     }
 }
 main {
-    padding: calc(1rem + 5vw);
+    
 }
-
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: $color-secundary;
+    font-weight: 900;
+}
 

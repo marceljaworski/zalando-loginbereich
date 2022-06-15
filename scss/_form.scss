@@ -3,22 +3,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-inline: 1rem;
 
 }
 .form {
+
     h1 { margin-bottom: 1rem;}
+    margin-bottom: 1rem;
     label {
         border-top: solid 1px $color-gray;
         border-right: solid 1px $color-gray;
         border-left: solid 1px $color-gray;
         padding:0.5rem;
         width: max-content; 
-    }
-    input {
-        width: 100%;
-        margin-bottom: 1rem;
-        padding: 1rem;
-        
+       
     }
     
     button {
@@ -28,5 +26,49 @@
         margin-bottom: 1rem;
         padding: 1rem 2rem;
         border: none;
+        font-weight: 900;
+    }
+    div {
+        position: relative;
+        input {
+            width: 100%;
+            margin-bottom: 1.5rem;
+            padding: 1rem;
+        
+            input:hover {
+                border: $color-primary;
+            }
+            
+        }
+        
+        i {
+            position: absolute;
+            font-size: 1.5rem;
+            color: $color-gray;
+            top: 15px;
+            left: 5px;
+        }
     }
 }
+.register {
+    margin-top: 1rem;
+    padding-inline: 1rem;
+    p {
+        margin-bottom: 1rem;
+        
+    }
+    button {
+        width: 100%;
+        background-color: $color-withe;
+        color: $color-primary;
+        margin-bottom: 1rem;
+        padding: 1rem 2rem;
+        border: solid 1px $color-primary;
+        font-weight: 900;
+    }
+    button:hover{
+        background-color: $color-gray;
+        color: $color-withe;
+    } 
+}
+
