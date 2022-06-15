@@ -4,21 +4,33 @@ header {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    
+    padding: 1rem 0;
    
    
     div {
+        height: 3rem;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        position: relative;
-
-    }
-    
-        button {
-            border: solid 1px rgb(252, 26, 26);
+        align-items: center;
+        padding: 0 1rem;
+        border: solid 1px $color-gray;
+        i {
+            color: $color-primary;
         }
-
-
-
+        
+    }
+    .login {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        a {
+            text-decoration: none;
+        }
+        
+    } 
+    
+        
     
 }
+
