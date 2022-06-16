@@ -7,13 +7,14 @@
 
 }
 .form {
+    padding-bottom: $padding-b;
 
-    h1 { margin-bottom: 1rem;}
-    margin-bottom: 1rem;
+    h3 { margin-bottom:$margin-b}
+    
     label {
-        border-top: solid 1px $color-gray;
-        border-right: solid 1px $color-gray;
-        border-left: solid 1px $color-gray;
+        border-top: solid 1px $color-primary;
+        border-right: solid 1px $color-primary;
+        border-left: solid 1px $color-primary;
         padding:0.5rem;
         width: max-content; 
        
@@ -23,8 +24,8 @@
         width: 100%;
         background-color: $color-primary;
         color: $color-withe;
-        margin-bottom: 1rem;
-        padding: 1rem 2rem;
+        margin-bottom: $margin-b;
+        padding: $padding-button;
         border: none;
         font-weight: 900;
     }
@@ -32,7 +33,7 @@
         position: relative;
         input {
             width: 100%;
-            margin-bottom: 1.5rem;
+            margin-bottom: $margin-b;
             padding: 1rem;
         
             input:hover {
@@ -43,31 +44,32 @@
         
         i {
             position: absolute;
-            font-size: 1.5rem;
-            color: $color-gray;
+            font-size: 1.2rem;
+            color: $color-secundary;
             top: 15px;
-            left: 5px;
+            left: 10px;
         }
     }
 }
 .register {
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding-inline: 1rem;
     p {
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
+        font-weight: 900;
         
     }
     button {
         width: 100%;
         background-color: $color-withe;
         color: $color-primary;
-        margin-bottom: 1rem;
-        padding: 1rem 2rem;
+        margin-bottom: $margin-b;
+        padding: $padding-button;
         border: solid 1px $color-primary;
         font-weight: 900;
     }
     button:hover{
-        background-color: $color-gray;
+        background-color: $color-secundary;
         color: $color-withe;
     } 
 }

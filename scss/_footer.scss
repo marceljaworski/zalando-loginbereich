@@ -1,6 +1,9 @@
 footer {
+    padding: $padding;
     a {
-    color: $color-gray;
+    color: $color-secundary;
+    padding-bottom: $padding-b;
     }
-
+    display: flex;
+    flex-direction: column;
 }

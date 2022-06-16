@@ -16,13 +16,14 @@ html,body {
         width: 150px;
     }
 }
-main {
-    
-}
+
 a {
     text-decoration: none;
     cursor: pointer;
-    color: $color-secundary;
+    color: $color-link;
     font-weight: 900;
+}
+span {
+    font-size: small;
 }
 
