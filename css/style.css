@@ -61,29 +61,74 @@ header .login p {
   font-weight: 900;
 }
 
-@media (min-width: 1023px) {
+@media (min-width: 1024px) {
   header {
     visibility: hidden;
   }
 }
-footer {
-  padding: 1rem;
+footer .footer-container {
+  width: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  padding: 0;
 }
-footer a {
-  color: #c5c5c5;
+footer .footer-container a {
+  color: #1a1a1a;
   padding-bottom: 1.5rem;
+  font-size: small;
+  font-weight: 700;
 }
 
+@media (min-width: 320px) {
+  .footer-container {
+    padding-inline: calc(2vw + 0.5rem);
+  }
+}
+@media (min-width: 480px) {
+  .footer-container {
+    padding-inline: calc(5vw + 3.5rem);
+  }
+}
+@media (min-width: 768px) {
+  .footer-container {
+    padding-inline: calc(5vw + 12rem);
+  }
+}
+@media (min-width: 1024px) {
+  .footer-container {
+    padding-inline: calc(8vw + 18rem);
+  }
+}
 .container {
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-inline: 1rem;
+  padding-inline: 0;
 }
 
+@media (min-width: 320px) {
+  .container {
+    padding-inline: calc(2vw + 0.5rem);
+  }
+}
+@media (min-width: 480px) {
+  .container {
+    padding-inline: calc(5vw + 3.5rem);
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    padding-inline: calc(5vw + 12rem);
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    padding-inline: calc(8vw + 18rem);
+  }
+}
 .form {
   padding-bottom: 1.5rem;
 }
@@ -126,25 +171,50 @@ footer a {
 }
 
 .register {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-top: 2rem;
-  padding-inline: 1rem;
+  padding-inline: 0;
 }
-.register p {
+.register div p {
   margin-bottom: 1.5rem;
   font-weight: 900;
 }
-.register button {
+.register div button {
   width: 100%;
   background-color: #fff;
   color: #1a1a1a;
   margin-bottom: 1.5rem;
   padding: 1rem 2rem;
-  border: solid 1px #1a1a1a;
+  border: solid 2px #1a1a1a;
   font-weight: 900;
 }
-.register button:hover {
+.register div button:hover {
   background-color: #c5c5c5;
   color: #fff;
+}
+
+@media (min-width: 320px) {
+  .register {
+    padding-inline: calc(2vw + 0.5rem);
+  }
+}
+@media (min-width: 480px) {
+  .register {
+    padding-inline: calc(5vw + 3.5rem);
+  }
+}
+@media (min-width: 768px) {
+  .register {
+    padding-inline: calc(5vw + 12rem);
+  }
+}
+@media (min-width: 1024px) {
+  .register {
+    padding-inline: calc(8vw + 18rem);
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

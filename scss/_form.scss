@@ -3,11 +3,47 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-inline: 1rem;
-
+    padding-inline: 0;
+           
 }
+@media (min-width: 320px) {
+    .container {
+        padding-inline: calc(2vw + 0.5rem);
+
+    }
+  
+}
+
+@media (min-width: 480px) {
+    .container {
+        padding-inline: calc(5vw + 3.5rem)
+
+    }
+  
+    
+    
+}
+
+@media (min-width: 768px) {
+    .container{
+        padding-inline: calc(5vw + 12rem)
+
+    }
+    
+    
+    
+}
+@media (min-width: 1024px) {
+    .container{
+        padding-inline: calc(8vw + 18rem)
+
+    }
+    
+}
+
 .form {
     padding-bottom: $padding-b;
+   
 
     h3 { margin-bottom:$margin-b}
     
@@ -52,25 +88,72 @@
     }
 }
 .register {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     margin-top: 2rem;
-    padding-inline: 1rem;
-    p {
-        margin-bottom: 1.5rem;
-        font-weight: 900;
-        
+    padding-inline: 0;
+    div {
+        p {
+            margin-bottom: 1.5rem;
+            font-weight: 900;
+            
+        }
+        button {
+            width: 100%;
+            background-color: $color-withe;
+            color: $color-primary;
+            margin-bottom: $margin-b;
+            padding: $padding-button;
+            border: solid 2px $color-primary;
+            font-weight: 900;
+        }
+        button:hover{
+            background-color: $color-secundary;
+            color: $color-withe;
+        } 
+
     }
-    button {
-        width: 100%;
-        background-color: $color-withe;
-        color: $color-primary;
-        margin-bottom: $margin-b;
-        padding: $padding-button;
-        border: solid 1px $color-primary;
-        font-weight: 900;
-    }
-    button:hover{
-        background-color: $color-secundary;
-        color: $color-withe;
-    } 
+    
 }
+@media (min-width: 320px) {
+    
+    .register {
+        padding-inline: calc(2vw + 0.5rem);
+
+    }
+    
+}
+
+@media (min-width: 480px) {
+  
+    .register {
+        padding-inline: calc(5vw + 3.5rem)
+
+    }
+    
+    
+}
+
+@media (min-width: 768px) {
+    
+    .register {
+        padding-inline: calc(5vw + 12rem)
+
+    }
+    
+    
+}
+@media (min-width: 1024px) {
+    
+    .register{
+        padding-inline: calc(8vw + 18rem)
+
+    }
+    
+    
+    
+}
+
 
