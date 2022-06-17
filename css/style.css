@@ -174,6 +174,15 @@ footer .footer-container a {
 }
 .form div {
   position: relative;
+  /*
+  #eye {
+      position: absolute;
+      font-size: 1.2rem;
+      color: $color-secundary;
+      top: 15px;
+      right: 15px;
+
+  }*/
 }
 .form div input {
   width: 100%;
@@ -189,13 +198,6 @@ footer .footer-container a {
   color: #c5c5c5;
   top: 15px;
   left: 10px;
-}
-.form div #eye {
-  position: absolute;
-  font-size: 1.2rem;
-  color: #c5c5c5;
-  top: 15px;
-  right: 15px;
 }
 
 .register {
