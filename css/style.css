@@ -178,7 +178,7 @@ footer .footer-container a {
 .form div input {
   width: 100%;
   margin-bottom: 1.5rem;
-  padding: 1rem;
+  padding: 1rem 1rem 1rem 2rem;
 }
 .form div input input:hover {
   border: #1a1a1a;
@@ -189,6 +189,13 @@ footer .footer-container a {
   color: #c5c5c5;
   top: 15px;
   left: 10px;
+}
+.form div #eye {
+  position: absolute;
+  font-size: 1.2rem;
+  color: #c5c5c5;
+  top: 15px;
+  right: 15px;
 }
 
 .register {

@@ -70,7 +70,7 @@
         input {
             width: 100%;
             margin-bottom: $margin-b;
-            padding: 1rem;
+            padding: 1rem 1rem 1rem 2rem;
         
             input:hover {
                 border: $color-primary;
@@ -85,6 +85,15 @@
             top: 15px;
             left: 10px;
         }
+        /*
+        #eye {
+            position: absolute;
+            font-size: 1.2rem;
+            color: $color-secundary;
+            top: 15px;
+            right: 15px;
+
+        }*/
     }
 }
 .register {
@@ -147,13 +156,10 @@
 }
 @media (min-width: 1024px) {
     
-    .register{
+    .register {
         padding-inline: calc(8vw + 18rem)
 
-    }
-    
-    
-    
+    }   
 }
 
 
