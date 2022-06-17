@@ -4,13 +4,13 @@ footer {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        margin-top: 2rem;
         gap: 2rem;
         padding: 0;
          
         a {
             color: $color-primary;
             padding-bottom: $padding-b;
-           
             font-size: small;
             font-weight: 700;
         }
@@ -22,8 +22,12 @@ footer {
 @media (min-width: 320px) {
     
     .footer-container {
+        width: 100%;
         padding-inline: calc(2vw + 0.5rem);
-
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        gap: 1rem;
     }
     
 }
@@ -54,8 +58,15 @@ footer {
 
     }
     
-    
-    
+}
+.icon-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0 3rem 0;
+    img {
+        width: 30px;
+    }
+
 }
 
 
